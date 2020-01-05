@@ -1,0 +1,43 @@
+{"intents": [
+        {"tag": "greetings",
+         "patterns": ["Hi", "Hello", "How are you", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["See you later", "Good bye", "Have a Good day"],
+         "responses": ["Ok bye", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old is Natasha", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 25 years old!", "25 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me Natasha.", "I'm Natasha!"],
+         "context_set": ""
+        },
+        {"tag": "request",
+         "patterns": ["Id like to file a grievance", "help me", "please help me", "help me please", "I want to file a grievance", "I want to file a complaint"],
+         "responses": ["How may I help you", "Go ahead...I can guide you."],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["what are your hours", "hours of operation"],
+         "responses": ["I am available for 24/7", "You can have me anytime"],
+         "context_set": ""
+       },
+       {"tag": "authority",
+         "patterns": ["where can the grievances be sent?", "whom to write of my complaint", "address to file grievance"],
+         "responses": ["Department of Administrative Reforms and Public Grievances , Ministry of Personnel, Public Grievances and Pensions and Directorate of Public Grievances, Cabinet Secretariat"],
+         "context_set":""
+       },
+       {"tag": "online",
+         "patterns": ["how to file online grievance?", "how to file online? ", "address to file grievance"],
+         "responses": ["The grievances can be lodged online on . In cases where internet facility is not available or even otherwise, the citizen is free to send her/his grievance by Post"],
+         "context_set":""
+       }
+   ]
+}
